@@ -8,10 +8,10 @@ async function uploadScreenshot(name) {
         'method': 'POST',
         'url': 'https://api.lambdatest.com/automation/smart-ui/v2/upload',
         'headers': {
-          'Authorization': 'Basic bXVkYXNzYXJzOjJhUDhQVW1Qcm1wY0g1V1NGRDFkdGVENVBobWhQQ2g2MVNOSkRZQWdGN1hDRXgzM3RI'
+          'Authorization': 'enter basic auto here'
         },
         formData: {
-          'projectToken': '550422#adc58e6b-7138-40a9-84a0-10cd6af8d2be#f1',
+          'projectToken': 'enter project token here',
           'screenshotNames': name,
           'files': {
             'value': fs.createReadStream('./screenshots/' + name + '.png'),
