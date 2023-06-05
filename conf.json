@@ -1,0 +1,4 @@
+{
+    "browsers": ["lambdatest:Chrome @102.0:Windows 10"]
+
+}
